@@ -1,28 +1,28 @@
 class Bacio < Formula
   desc "Local-first issue tracker for AI agents, with CLI and TUI"
   homepage "https://github.com/mrgeoffrich/bacio"
-  version "1.0.3"
+  version "1.0.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mrgeoffrich/bacio/releases/download/v1.0.3/bacio-v1.0.3-darwin-arm64.tar.gz"
-      sha256 "c66ae919da5784b3ab76a1dfb68c5095b2fcc63efe89e4c20b867ed41c2b10cb"
+      url "https://github.com/mrgeoffrich/bacio/releases/download/v1.0.4/bacio-v1.0.4-darwin-arm64.tar.gz"
+      sha256 "0faa2cbc51ba88b24ed2d91d3555b7cad5bc0f017b3d8940ad53fb9eae3e5ce4"
     end
     on_intel do
-      url "https://github.com/mrgeoffrich/bacio/releases/download/v1.0.3/bacio-v1.0.3-darwin-amd64.tar.gz"
-      sha256 "d1adbf1875ad35621fd006de1e4d46d7b76b2e305324c5cdb85822be42f7ded3"
+      url "https://github.com/mrgeoffrich/bacio/releases/download/v1.0.4/bacio-v1.0.4-darwin-amd64.tar.gz"
+      sha256 "37091f5c342407839d4294fbbbe29d994c110aaaf7d4be6d5e06ae2afbd29f28"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mrgeoffrich/bacio/releases/download/v1.0.3/bacio-v1.0.3-linux-arm64.tar.gz"
-      sha256 "9d012aad57b90babcdb2489bbe14a1c57e39574b6082ab11d6b91a45b43e0ee5"
+      url "https://github.com/mrgeoffrich/bacio/releases/download/v1.0.4/bacio-v1.0.4-linux-arm64.tar.gz"
+      sha256 "0b65fd9791643123a2fbf9f93f9f11ae70fadd6d75cca7f8c02ef491f2c4bda5"
     end
     on_intel do
-      url "https://github.com/mrgeoffrich/bacio/releases/download/v1.0.3/bacio-v1.0.3-linux-amd64.tar.gz"
-      sha256 "da0567940b82c3c9c7e409f766473fa335de7d37dbb7ccc65daa9314c2c38511"
+      url "https://github.com/mrgeoffrich/bacio/releases/download/v1.0.4/bacio-v1.0.4-linux-amd64.tar.gz"
+      sha256 "b098c0a090cd6c07eaa76a67ebd1b50c466c7582f2ab74cbe3b4be9120ddb432"
     end
   end
 
